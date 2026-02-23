@@ -335,10 +335,9 @@ export default function App() {
           >
             <div className="aspect-square rounded-2xl glass neon-border-purple overflow-hidden shadow-[0_0_30px_rgba(188,19,254,0.4)]">
               <img 
-                src="https://drive.google.com/uc?export=view&id=12r25kziZiE9SphZEVnIFxpq02Df5AGTO" 
+                src="https://docs.google.com/uc?id=12r25kziZiE9SphZEVnIFxpq02Df5AGTO" 
                 alt="AI Masterclass Poster" 
                 className="w-full h-full object-cover opacity-100 transition-all duration-500 cursor-pointer"
-                referrerPolicy="no-referrer"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-lime-green/20 blur-3xl rounded-full" />
@@ -405,12 +404,47 @@ export default function App() {
         </div>
       </section>
 
+      {/* Developer Profile Section */}
+      <section className="py-24 px-6 max-w-5xl mx-auto border-t border-white/5">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={containerVariants}
+          className="grid md:grid-cols-2 gap-12 items-center"
+        >
+          <motion.div variants={itemVariants} className="order-2 md:order-1">
+            <h2 className="text-3xl md:text-5xl font-bold mb-2 neon-glow-cyan uppercase leading-tight">Profil Pengembang Website NOLACREATE</h2>
+            <h3 className="text-xl md:text-2xl font-medium text-white/80 mb-6 italic">by Desy Norma Ilahi, S.Pd.</h3>
+            <p className="text-lg text-white/70 leading-relaxed mb-6">
+              Selamat datang di ruang kreatif kami. Kami berdedikasi untuk menghadirkan teknologi AI yang mudah diakses dan bermanfaat bagi dunia pendidikan. Semoga fasilitas ini menjadi jembatan bagi kawan-kawan untuk terus berinovasi.
+            </p>
+            <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm leading-relaxed">
+              <strong>Peringatan Penting:</strong> Akses Website ini khusus untuk kawan-kawan yang tergabung dalam grup MASTERCLASS AI. Dilarang keras untuk menyebar luaskan semua fasilitas kepada orang diluar anggota grup.
+            </div>
+          </motion.div>
+          <motion.div 
+            variants={itemVariants}
+            className="relative order-1 md:order-2"
+          >
+            <div className="aspect-square rounded-full glass neon-border-cyan overflow-hidden shadow-[0_0_30px_rgba(0,243,255,0.4)] max-w-[300px] mx-auto">
+              <img 
+                src="https://docs.google.com/uc?id=1MweF-gA1fUUITTDDzpJ6vX6m99N63w4k" 
+                alt="Desy Norma Ilahi, S.Pd." 
+                className="w-full h-full object-cover opacity-100 transition-all duration-500"
+              />
+            </div>
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-neon-cyan/10 blur-3xl rounded-full" />
+          </motion.div>
+        </motion.div>
+      </section>
+
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-white/5 bg-black/40 backdrop-blur-md">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold mb-2 neon-glow-cyan">Masterclass AI</h3>
-            <p className="text-white/40 text-sm">© 2024 nolacreate. Hak cipta dilindungi undang-undang.</p>
+            <p className="text-white/40 text-sm">© 2026 nolacreate. Hak cipta dilindungi undang-undang.</p>
           </div>
 
           <div className="flex gap-6">
