@@ -335,7 +335,7 @@ export default function App() {
           >
             <div className="aspect-square rounded-2xl glass neon-border-purple overflow-hidden shadow-[0_0_30px_rgba(188,19,254,0.4)]">
               <img 
-                src="https://docs.google.com/uc?id=12r25kziZiE9SphZEVnIFxpq02Df5AGTO" 
+                src="https://lh3.googleusercontent.com/d/12r25kziZiE9SphZEVnIFxpq02Df5AGTO" 
                 alt="AI Masterclass Poster" 
                 className="w-full h-full object-cover opacity-100 transition-all duration-500 cursor-pointer"
               />
@@ -429,7 +429,7 @@ export default function App() {
           >
             <div className="aspect-square rounded-full glass neon-border-cyan overflow-hidden shadow-[0_0_30px_rgba(0,243,255,0.4)] max-w-[300px] mx-auto">
               <img 
-                src="https://docs.google.com/uc?id=1MweF-gA1fUUITTDDzpJ6vX6m99N63w4k" 
+                src="https://lh3.googleusercontent.com/d/1MweF-gA1fUUITTDDzpJ6vX6m99N63w4k" 
                 alt="Desy Norma Ilahi, S.Pd." 
                 className="w-full h-full object-cover opacity-100 transition-all duration-500"
               />
