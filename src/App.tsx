@@ -65,7 +65,7 @@ const lessons = [
     description: "Membangun pengalaman interaktif dan game menggunakan Canva Code.",
     icon: <Code className="w-6 h-6 text-neon-cyan" />,
     color: "cyan",
-    link: "https://youtube.com"
+    link: "https://canva-code-hack.vercel.app/"
   },
   {
     id: 7,
