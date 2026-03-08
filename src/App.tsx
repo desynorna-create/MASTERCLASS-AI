@@ -25,7 +25,7 @@ const lessons = [
     description: "Mempelajari dasar-dasar pembuatan website yang ditenagai oleh kecerdasan buatan.",
     icon: <BookOpen className="w-6 h-6 text-neon-cyan" />,
     color: "cyan",
-    link: "https://youtube.com"
+    link: "https://youtu.be/0gHAljeHQEw?si=hMHvZ85rn8d8fk0D"
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const lessons = [
     description: "Memanfaatkan fitur AI di Canva untuk membuat animasi yang memukau dengan cepat.",
     icon: <Video className="w-6 h-6 text-lime-green" />,
     color: "green",
-    link: "https://youtube.com"
+    link: "https://youtu.be/3T8k36j_rbA?si=MCsmsscrwtqMVLD2"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const lessons = [
     description: "Eksplorasi pembuatan video animasi tingkat lanjut menggunakan teknologi Veo3.",
     icon: <Code className="w-6 h-6 text-neon-cyan" />,
     color: "cyan",
-    link: "https://youtube.com"
+    link: "https://youtu.be/sfAj1SnAMJA?si=kXfg1GVzH6E-Shjx"
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const lessons = [
     description: "Menguasai alat Kling untuk menghasilkan animasi AI yang realistis dan dinamis.",
     icon: <Terminal className="w-6 h-6 text-electric-purple" />,
     color: "purple",
-    link: "https://youtube.com"
+    link: "https://youtu.be/mNQsYIQmjQs?si=C2JNDh9txfZlzkZC"
   },
   {
     id: 5,
@@ -98,6 +98,14 @@ const lessons = [
     icon: <Video className="w-6 h-6 text-lime-green" />,
     color: "green",
     link: "https://youtube.com"
+  },
+  {
+    id: 11,
+    title: "Tutorial Animasi Fakta Menarik",
+    description: "Teknik membuat konten animasi fakta menarik yang viral menggunakan AI.",
+    icon: <MessageSquare className="w-6 h-6 text-neon-cyan" />,
+    color: "cyan",
+    link: "https://youtu.be/5a3qP5h-hOY?si=YbXkbL2gS-HXd5qR"
   }
 ];
 
